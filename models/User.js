@@ -1,4 +1,6 @@
-const { Model, DataTypes } = require('sequelize');
+//provided from instructional staff
+
+const {Model, DataTypes} = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection.js');
 

@@ -1,3 +1,5 @@
+/* just added some custom formatting for links on the homepage */
+
 .links {
     display: flex;
     flex-direction: row;

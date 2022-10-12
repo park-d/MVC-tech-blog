@@ -1,3 +1,5 @@
+//file that allows us to modularize our controllers
+
 const router = require('express').Router();
 
 const userRoutes = require('./userRoutes.js');

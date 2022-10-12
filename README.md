@@ -15,6 +15,8 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 N/A
 
 ## Usage 
+Application is deployed at the following link: [Deployed application](https://mysterious-bastion-25822.herokuapp.com/)
+
 Upon landing on the page, the user is presented with a homepage with existing blog posts if there are any. The user may click on any links in the navigation bar to sign up or login. They user may also post to the webpage, and delete posts from the dashboard.
 
 Future development includes adding comment functionality, update post functionality, and styling.

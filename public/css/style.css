@@ -1,0 +1,13 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.links li {
+    padding: 10px;
+    margin-right: 12px;
+    margin-top: 5px;
+    font-size: 18px;
+    list-style-type: none;
+}

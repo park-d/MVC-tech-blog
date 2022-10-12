@@ -10,11 +10,14 @@ router.post('/', async (req, res) => {
 
         req.session.save(() => {
             req.session.userId = userData.id;
-            req.session.username = userData.username
+            req.session.username = userData.username;
             req.session.loggedIn = true;
 
             res.status(200).json(userData);
-        });
+        })
+        console.log(req.session)
+        ;
+
     } catch(err) {
         console.log(err);
         res.status(500).json(err);
@@ -43,12 +46,13 @@ router.post('/login', async (req, res) => {
         }
 
         req.session.save(() => {
-            req.session.user_id = userData.id;
+            req.session.userId = userData.id;
+            req.session.username = userData.username;
             req.session.loggedIn = true;
 
             res.json({user: userData, message: 'You are now logged in!'});
-        });
-
+        })
+            console.log(req.session)
     } catch(err) {
         res.status(400).json(err);
     }
